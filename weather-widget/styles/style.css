@@ -29,7 +29,7 @@ input[type="text"] {
   text-align: center;
 }
 
-input::placeholder{
+input:placeholder{
   color: #141414;
 }
 
