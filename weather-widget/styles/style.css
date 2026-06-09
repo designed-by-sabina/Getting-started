@@ -45,14 +45,19 @@ input:placeholder{
 
 .output_component{
     position: absolute;
-    top: 60%
-    left: 50%
+    top: 60%;
+    left: 50%;
     transform: translate(-50%,-50%);
 
     .city_name, .temperature{
         text-align: center;
         font-size: 3em;
-        line-height: 1.2em
+        line-height: 1.2em;
         color:white;
     }
 }
+
+<div class="output-container">
+          <h2 class="city_name">New York</h2>
+          <p class="temperature">34</p>
+        </div>
