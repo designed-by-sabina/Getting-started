@@ -29,6 +29,8 @@ fetch(API_ENDPOINT)
       // manipulate the temperature content
       CITY_TEMP.textContent = weather_in_celsius + " C"
   });
+  form.reset();
+  input.focus();
 };    
 
 
